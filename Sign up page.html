@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign up </title>
+
+<style>
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.signup{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    padding: 20px;
+    width: 480px;
+    text-align: center;
+    position: absolute;
+}
+
+h2{
+    color: crimson;
+}
+
+label{
+    display: block;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    cursor:pointer;
+    background-color:crimson;
+    width: 100%;
+    font-size:16px;
+    margin-top: 15px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="Image">
+<img src="1.png" alt="">
+</div>
+
+
+<!-- This is Modal -->
+
+<div class="signup">
+    <h2> Sign up </h2>
+<form>
+
+<label for="fname"> First Name </label>
+<input type="text" id="fname" placeholder="Enter your first name" required>
+
+
+<label for="lname"> Last Name </label>
+<input type="text" id="lname" placeholder="Enter your last name" required>
+
+
+<label for="Gmail"> Gmail </label>
+<input type="text" id="Gmail" placeholder="Enter your Gmail" required>
+
+
+<label for="Phone">Phone no.</label>
+<input type="text" id="Phone" placeholder="Enter your Phone no." required>
+
+
+<label for="Password">Password</label>
+<input type="password" id="Password" placeholder="Enter your Password" required>
+
+
+<label for="cpassword"> Confirm Password</label>
+<input type="password" id="cpassword" placeholder="Confirm your Password" required>
+
+
+<button class="button"> Sign up </button>
+
+</form>
+</div>
+
+<!--  Modal  -->
+
+    
+</body>
+</html>
